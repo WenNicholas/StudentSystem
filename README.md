@@ -1,6 +1,3 @@
-# https://github.com/Yourdaylight/Django-Projects/tree/master/StudentSystem-master
-https://github.com/Gscsd8527/StudentSystem
-# https://blog.csdn.net/Demonslzh/article/details/107858450
 # StudentSystem
 学生管理系统
    model： 
