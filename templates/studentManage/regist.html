@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+    <form method="post" action="/student/regist/">
+        {%csrf_token %}
+        <input type="text" name="username" placeholder="用户名:"/><br>
+        <input type="password" name="password" placeholder="密  码:"/><br>
+        <input type="password" name="verif_password" placeholder="确认密码"><br>
+        {% if error %}
+            <h1 style="color: red">{{ error }}</h1>
+        {% endif %}
+        <input class="tj" type="submit" value="注册"/>
+    </form>
+</body>
+</html>
